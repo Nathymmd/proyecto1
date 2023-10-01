@@ -223,11 +223,20 @@ article .linea {
                 margin-top: 10vh;
             }
         
-            .footer-container {
+            .footer-contenedor {
                 display: flex;
                 justify-content: space-around;
+                
             }
-        
+            footer section i:hover {
+                color: #EAC926;
+            }
+            .copyright {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
             
            
          }
@@ -260,8 +269,15 @@ article .linea {
             color: #1259C3;
             font-size: 30px;
         }
-      
+        .footer section  i:hover {
+            color: #EAC926;
+        }
         .copyright {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        
             color: #666;
             font-size: 12px;
             margin-top: 15px;
